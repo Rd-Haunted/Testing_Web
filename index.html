@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="responsive.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -43,7 +43,7 @@
                       <a class="nav-link" href="legal.html">Legal Aid</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact Us</a>
+                      <a class="nav-link btn btn-primary" class="" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -51,6 +51,84 @@
             </div>
           </nav>
     </div>
+
+    <div class="contact_popup_section">
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="cancell_popup_outer">
+                <div class="cancell_popup_inner">
+                  <div class="cancell_popup_inner_left">
+                    <h2>Enquiry Form</h2>
+                    <form action="">
+                      <div class="name_div">
+                        <label for="">Full Name</label>
+                        <input type="text" required>
+                      </div>
+                      <div class="mobile_and_contact_outer">
+                        <div class="mobile_div">
+                          <label for="">Mobile No.</label>
+                          <input type="text" required> 
+                        </div>
+                        <div class="contact_outer">
+                          <label for="">Country</label>
+                          <input type="text" required>
+                        </div>
+                      </div>
+                      <div class="choose_section">
+                        <p>Choose any</p>
+                        <div class="choose_section_inner">
+                          <div class="input_1">
+                            <input type="radio" name="choose_any" id="litigation">
+                            <label for="litigation">Litigation</label>
+                          </div>
+                          <div class="input_2">
+                            <input type="radio" name="choose_any" id="conveyance">
+                          <label for="conveyance">Conveyance & <br> 
+                            Agreement</label>
+                          </div>
+                          <div class="input_3">
+                            <input type="radio" name="choose_any" id="liasonning">
+                            <label for="liasonning">Liasonning</label>
+                          </div>
+                          <div class="input_4" >
+                            <input type="radio" name="choose_any" id="others">
+                            <label for="others">Others</label>
+                          </div>
+                        </div>
+                       
+                      </div>
+                      <div class="comment_section">
+                        <label for="">Comments (if any)</label>
+                        <textarea name="comment" id="coment" rows="2" cols="50"></textarea>
+                      </div>
+                      <div class="contact_bottom">
+                        <a href="#">Submit</a>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="cancell_popup_inner_right">
+                    <figure>
+                      <img src="images/contact_image.png" alt="this is a image">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+
+
+
     <section class="home_section_1">
       <div class="home_section_1_outer container-xl">
         <div class="home_section_1_inner">

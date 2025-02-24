@@ -33,6 +33,204 @@ img{
     padding: 0px 12px;
   
 }
+
+/* contact popup */
+.btn:hover{
+    background-color: transparent;
+}
+.btn:first-child:active{
+    background-color: transparent;
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+    border-top: none;
+}
+.modal-content{
+    min-width: 1240px;
+    min-height: 668px;
+    margin-left: -370px;
+    margin-top: 100px;
+}
+.cancell_popup_inner{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1038px;
+}
+.cancell_popup_inner_left h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.name_div {
+    display: flex;
+    flex-direction: column;
+}
+.name_div label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.name_div input{
+    max-width: 505px;
+    min-height: 36px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.mobile_and_contact_outer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 510px;
+}
+.mobile_div{
+    display: flex;
+    flex-direction: column;
+}
+.mobile_div label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 38px;
+    margin-bottom: 5px;
+}
+.mobile_div input{
+    min-width: 240px;
+    min-height: 36px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+.contact_outer{
+    display: flex;
+    flex-direction: column;
+}
+.contact_outer label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 38px;
+    margin-bottom: 5px;
+}
+.contact_outer input{
+    min-width: 240px;
+    min-height: 36px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.choose_section_inner{
+    display: flex;
+}
+.choose_section p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 35px;
+}
+.choose_section_inner label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.choose_section_inner .input_2 label{
+    margin-left: 12px;
+}
+.choose_section_inner .input_2  input{
+    margin-top: 4px;
+}
+.choose_section_inner .input_2{
+  display: flex;
+  align-items: flex-start;
+}
+.choose_section_inner .input_2{
+    margin-left: 32px;
+}
+.choose_section_inner .input_3{
+    margin-left: 42px;
+}
+.choose_section_inner .input_4{
+    margin-left: 31px;
+}
+.comment_section label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.comment_section textarea{
+    max-width: 505px;
+    min-height: 72px;
+    border: 1px solid #2A2A2C;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.comment_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+.contact_bottom a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    color: #F8F2EF;
+    padding: 20px 228px;
+    background: #2A2A2C;
+    display: inline-block;
+    margin-top: 32px;
+}
+.btn-close:focus{
+    box-shadow: none;
+}
+.modal-header .btn-close{
+    margin-left: auto;
+    margin-right: 80px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+/* nav section */
+
 .collapse{
     justify-content: end;
 }
@@ -968,6 +1166,35 @@ footer{
 
 @media (max-width: 1199px) {
 
+
+/* contact popup */
+.modal-content{
+    min-width: 950px;
+}
+.cancell_popup_inner_right{
+    display: none;
+}
+.cancell_popup_inner{
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    min-width: 606px;
+    margin-left: -50px;
+}
+.modal-header .btn-close{
+    margin-right: 25px;
+    color: var(--lightgray);
+    opacity: 1;
+}
+.cancell_popup_inner_left h2{
+    margin: 20px;
+}
+.modal-header{
+    height: 60px;
+}
+
+
 /* home section 1 */
 .slide_1 h1{
     font-size: 35px;
@@ -1223,7 +1450,6 @@ footer{
 
 @media (max-width:991px) {
 
-
     /* home section 1 */
 
 .slide_1 h1{
@@ -1275,7 +1501,20 @@ footer{
 
 
 @media (max-width:767px) {
-    
+
+
+    /* cancell popup */
+
+.modal-content {
+    min-width: 500px;
+    margin-left: 2px;
+}
+.modal-header .btn-close{
+    margin-right: 8px;
+}
+
+
+
     /* home secion 1 */
 
 .carousel-item img{
@@ -1379,7 +1618,92 @@ footer{
 }
 
 @media (max-width:575px) {
-    /* nav menu */
+
+
+/* cancell popup */
+.name_div input{
+    max-width: 300px;
+}
+.mobile_and_contact_outer{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mobile_div{
+    align-items: flex-start;
+}
+.mobile_div input{
+    min-width: 300px;
+}
+.choose_section_inner{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact_outer input{
+    min-width: 300px;
+}
+.choose_section_inner .input_2{
+    margin-left: 0;
+}
+.choose_section_inner .input_3{
+    margin-left: 0px;
+}
+.choose_section_inner .input_4{
+    margin-left: 0px;
+}
+.comment_section textarea{
+    max-width: 300px;
+}
+.modal-content{
+    min-width: 300px;
+    margin-left: 1px;
+}
+.cancell_popup_inner{
+    display: block;
+}
+.choose_section_inner label br{
+    display: none;
+}
+.contact_bottom a{
+    padding: 20px 121px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.cancell_popup_inner_left h2{
+    margin-bottom: 15px;
+}
+.modal-header .btn-close {
+    margin-right: -7px;
+}
+
+.choose_section p{
+    margin-top: 20px;
+}
+.modal-body{
+    max-width: 334px;
+}
+.modal.show .modal-dialog{
+    max-width: 334px;
+}
+
+.comment_section{
+    margin-top: 10px;
+}
+.choose_section_inner label{
+    margin-left: 12px;
+}
+.choose_section_inner .input_2 label{
+    margin-left: 15px;
+}
+.contact_outer label{
+    margin-top: 5px;
+}
+.mobile_div label{
+    margin-top: 5px;
+}
+.modal-header{
+    height: 30px;
+}
+/* nav menu */
 .nav_middle_img{
   width: 45%;
   align-self: center;
