@@ -60,9 +60,9 @@ img{
 }
 .modal-header .btn-close{
     margin-left: auto;
-    margin-right: 80px;
     margin-top: 20px;
     font-size: 25px;
+    margin-right: 72px;
 }
 .modal-header{
     border-bottom: none;
@@ -220,19 +220,6 @@ img{
     display: inline-block;
     margin-top: 32px;
 }
-
-
-
-
-
-
-/* contact section popup */
-
-
-
-
-
-
 
 /* nav section */
 
