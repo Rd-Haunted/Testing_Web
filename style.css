@@ -2237,7 +2237,7 @@ footer{
     font-size: 16px;
 }
 
-/*  */
+/* expertise in ligitation */
 
 .expertise_in_ligitation{
     padding: 20px 0px;
@@ -2258,5 +2258,10 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.expertise_in_ligitation_inner_top_right ul li a::after{
+    margin-left: 15px;
+}
+.expertise_in_ligitation_inner_bottom_left ul li::before{
+    margin-right: 15px;
+}
 }
