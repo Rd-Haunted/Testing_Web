@@ -1041,6 +1041,210 @@ img{
 }
 
 
+/* =======================================  service page ============================ */
+
+/*  our service section */
+
+.our_servises{
+    background-color: var(--lightgray);
+    padding: 24px 0px 62px 0px;
+}
+.our_servises_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.our_servises_outer h1{
+    font-family: 'Libre Caslon Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 52px;
+}
+.our_servises_inner_left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.our_servises_inner_left h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.our_servises_inner_left_first_ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #F8F2EF;
+    border-radius: 50%;
+    margin-right: 41px;
+    display: inline-block;
+}
+.our_servises_inner_left_first_ul li a {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.our_servises_inner_left_second_ul li a{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.our_servises_inner_left_second_ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #F8F2EF;
+    border-radius: 50%;
+    margin-right: 41px;
+    display: inline-block;
+}
+.our_servises_inner_left h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 50px 0px 37px 0px;
+}
+
+
+/* expertise_in_ligitation section */
+
+.expertise_in_ligitation{
+    background-color: var(--lightwhite);
+    padding: 54px 0px 42px 0px;
+}
+.expertise_in_ligitation_inner h2{
+    font-family: 'Libre Caslon Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 18px;
+    text-align: center;
+    color: #2A2A2C;
+    margin-bottom: 65px;
+}
+.expertise_in_ligitation_inner_top{
+    display: flex;
+    justify-content: space-between;
+}
+.expertise_in_ligitation_inner_top_right h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: right;
+    color: #2A2A2C;
+    margin-bottom: 33px;
+}
+.expertise_in_ligitation_inner_top_right p{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: right;
+    color: #2A2A2C;
+    margin-bottom: 45px;
+}
+.expertise_in_ligitation_inner_top_right ul li a{
+    font-family: 'Libre Caslon Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    color: #2A2A2C;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.expertise_in_ligitation_inner_top_right ul li a::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: var(--lightgray);
+    border-radius: 50%;
+    margin-left: 41px;
+    /* display: inline-block;   */
+}
+
+
+.expertise_in_ligitation_inner_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.expertise_in_ligitation_inner_bottom_left h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2A2A2C;
+    margin-bottom: 33px;
+}
+.expertise_in_ligitation_inner_bottom_left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    color: #2A2A2C;
+    margin-bottom: 29px;
+}
+.expertise_in_ligitation_inner_bottom_left ul li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 37px;
+    color: #2A2A2C;
+}
+.expertise_in_ligitation_inner_bottom_left ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: var(--lightgray);
+    border-radius: 50%;
+    margin-right: 41px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 
@@ -1417,10 +1621,76 @@ footer{
 .leagal_aid_section_3_outer a{
     padding: 20px 123px;
 }
+
+
+
+/* ====================================== service section ================================ */
+
+/* our service section */
+.our_servises_inner{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.our_servises_inner_left p {
+    text-align: center;
+    margin-top: 25px;
+}
+.our_servises_inner_left p br{
+    display: none;
+}
+.our_servises_inner_left h2{
+    text-align: center;
+}
+.our_servises_inner_left h3{
+    text-align: center;
+}
+
+/* expertise in ligitation */
+
+.expertise_in_ligitation_inner_top{
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.expertise_in_ligitation_inner_top_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expertise_in_ligitation_inner_top_right h3{
+    text-align: center;
+    margin-top: 25px;
+}
+.expertise_in_ligitation_inner_top_right p{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.expertise_in_ligitation_inner_top_right p br{
+    display: none;
+}
+.expertise_in_ligitation_inner_bottom{
+    flex-direction: column-reverse;
+}
+.expertise_in_ligitation_inner_bottom_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expertise_in_ligitation_inner_bottom_left h3{
+    text-align: center;
+    margin-top: 25px;
+}
+.expertise_in_ligitation_inner_bottom_left p{
+    text-align: center;
+}
+.expertise_in_ligitation_inner_bottom_left p br{
+    display: none;
 }
 
 
 
+}
 @media (max-width:991px) {
 
 /* contact popup */
@@ -1487,6 +1757,8 @@ footer{
     font-size: 25px;
     margin-bottom: 25px;
 }
+
+
 }
 
 
@@ -1599,6 +1871,14 @@ footer{
 .leagal_aid_section_3_outer h3{
     font-size: 20px;
 }
+
+/* ====================================== service section ================================ */
+
+.our_servises_outer h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 }
 
 @media (max-width:575px) {
@@ -1925,4 +2205,58 @@ footer{
 .leagal_aid_section_3_outer a {
     padding: 20px 72px;
 }
+
+
+/* ====================================== service section ================================ */
+
+.our_servises{
+    padding: 20px 0px;
+}
+.our_servises_outer h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.our_servises_inner_left p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.our_servises_inner_left h2{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.our_servises_inner_left_first_ul li a{
+    font-size: 16px;
+}
+.our_servises_inner_left h3{
+    margin: 20px 0px;
+    text-align: left;
+}
+.our_servises_inner_left_second_ul li a{
+    font-size: 16px;
+}
+
+/*  */
+
+.expertise_in_ligitation{
+    padding: 20px 0px;
+}
+.expertise_in_ligitation_inner h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.expertise_in_ligitation_inner_top_right h3{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.expertise_in_ligitation_inner_bottom_left h3{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 }

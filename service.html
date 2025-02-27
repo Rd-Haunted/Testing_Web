@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg nav_outer">
+                <div class="container-xl nav_inner">
+        
+                    <a class="navbar-brand" href="index.html">
+                    <span>
+                        <img src="images/logo_img.png" alt="this is the logo image">
+                    </span>
+                    </a>
+                    <a class="nav_middle_img" href="#">
+                    <figure>
+                        <img src="images/cennect_img.png" alt="this  is content image">
+                    </figure>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarNav" d-flex>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="legal.html">Legal Aid</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link btn-primary" type="button" class="" data-bs-toggle="modal" data-bs-target="#contact_Modal" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    </div>
+                
+                </div>
+            </nav>
+        </div>
+
+        <div class="contact_popup_section">
+            <!-- Modal -->
+            <div class="modal fade" id="contact_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="contact_popup_outer">
+                      <div class="contact_popup_inner">
+                        <div class="contact_popup_inner_left">
+                          <h2>Enquiry Form</h2>
+                          <form action="/quick">
+                            <div class="name_div">
+                              <label for="">Full Name</label>
+                              <input type="text" required>
+                            </div>
+                            <div class="mobile_and_contact_outer">
+                              <div class="mobile_div">
+                                <label for="">Mobile No.</label>
+                                <input type="text" required> 
+                              </div>
+                              <div class="contact_outer">
+                                <label for="">Country</label>
+                                <input type="text" required>
+                              </div>
+                            </div>
+                            <div class="choose_section">
+                              <p>Choose any</p>
+                              <div class="choose_section_inner">
+                                <div class="input_1">
+                                  <input type="radio" name="choose_any" id="litigation">
+                                  <label for="litigation">Litigation</label>
+                                </div>
+                                <div class="input_2">
+                                  <input type="radio" name="choose_any" id="conveyance">
+                                <label for="conveyance">Conveyance & <br> 
+                                  Agreement</label>
+                                </div>
+                                <div class="input_3">
+                                  <input type="radio" name="choose_any" id="liasonning">
+                                  <label for="liasonning">Liasonning</label>
+                                </div>
+                                <div class="input_4" >
+                                  <input type="radio" name="choose_any" id="others">
+                                  <label for="others">Others</label>
+                                </div>
+                              </div>
+                             
+                            </div>
+                            <div class="comment_section">
+                              <label for="">Comments (if any)</label>
+                              <textarea name="comment" id="coment" rows="2" cols="50"></textarea>
+                            </div>
+                            <div class="contact_bottom">
+                              <a href="#">Submit</a>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="cancell_popup_inner_right">
+                          <figure>
+                            <img src="images/contact_image.png" alt="this is a image">
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <section class="our_servises">
+            <div class="our_servises_outer container-xl">
+                <h1>Our Services</h1>
+                <div class="our_servises_inner">
+                    <div class="our_servises_inner_left">
+                        <p>Our Professionals are Vastly Experience in Handling Diverse <br> Range of Legal Matters before the Court of Justice.</p>
+                        <h2>We render our Professional Services</h2>
+                        <ul class="our_servises_inner_left_first_ul">
+                            <li><a href="#">Supreme Court of India</a></li>
+                            <li><a href="#">High Courts in India</a></li>
+                            <li><a href="#">High Court at Calcutta</a></li>
+                            <li><a href="#">Tribunals</a></li>
+                            <li><a href="#">Arbitrator</a></li>
+                            <li><a href="#">Consumer Forum</a></li>
+                            <li><a href="#">District Courts in West Bengal</a></li>
+                        </ul>
+                            <h3>We have Expertise in</h3>
+                        <ul class="our_servises_inner_left_second_ul">
+                            <li><a href="#">Litigation</a></li>
+                            <li><a href="#">Conveyance & Agreement</a></li>
+                            <li><a href="#">Liaisoning</a></li>
+                        </ul>
+                        
+
+                    </div>
+                    <div class="our_servises_inner_right">
+                        <figure>
+                            <img src="images/our_services_right_image.png" alt="this is a image">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="expertise_in_ligitation">
+            <div class="expertise_in_ligitation_outer container-xl">
+                <div class="expertise_in_ligitation_inner">
+                    <h2>Expertise in Ligitation</h2>
+                    <div class="expertise_in_ligitation_inner_top">
+                        <div class="expertise_in_ligitation_inner_top_left">
+                            <figure>
+                                <img src="images/expertise_in_ligitation_top_left.png" alt="this is a image">
+                            </figure>
+                        </div>
+                        <div class="expertise_in_ligitation_inner_top_right">
+                            <h3>Company and Investment Matters</h3>
+                            <p>We Provide absolute Legal Support for Formation of Companies in India <br> including Documentations, Registration, Permission and License etc.</p>
+                            <ul>
+                                <li><a href="#">Formation of Company</a></li>
+                                <li><a href="#">Merger</a></li>
+                                <li><a href="#">Acquisition</a></li>
+                                <li><a href="#">Liquidation</a></li>
+                                <li><a href="#">Directorship</a></li>
+                                <li><a href="#">Share of Profit</a></li>
+                                <li><a href="#">Shares and Debentures etc.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="expertise_in_ligitation_inner_bottom">
+                        <div class="expertise_in_ligitation_inner_bottom_left">
+                            <h3>Arbitration and Mediation Matters</h3>
+                            <p>Arbitration and Meditation are Effective Mode to Resolve the Dispute <br> between the Parties in Short Span of Time</p>
+                            <ul>
+                                <li><a href="#">Arbitration Agreement</a></li>
+                                <li><a href="#">Appointment of Arbitrator and Mediator</a></li>
+                                <li><a href="#">Appointment of Receiver</a></li>
+                                <li><a href="#">Recovery and Attachment of Assets</a></li>
+                                <li><a href="#">Arbitral Award etc.</a></li>
+                            </ul>
+                        </div>
+                        <div class="expertise_in_ligitation_inner_bottom_right">
+                            <figure>
+                                <img src="images/expertise_in_ligitation_top_right.png" alt="this is a image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<footer>
+    <div class="footer_outer container-xl">
+      <div class="footer_inner">
+       <div class="footer_inner_top">
+          <div class="footer_inner_left">
+            <div class="footer_left_outer">
+              <div class="footer_left_inner">
+                <h2>Visit Our Office</h2>
+                <p>Sukarna Apartment , H.B. Town, Road No. 06
+                  Sodepur, Kolkata - 700110</p>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <span>
+                        <img src="images/Whatsapp.png" alt="wahtsapp image">
+                      </span>
+                      +91 98304 52856 
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>
+                        <img src="images/Email.png" alt="wahtsapp image">
+                      </span>
+                      contact@connecttojustice.com
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer_inner_right">
+            <div class="footer_right_outer">
+              <div class="footer_right_inner">
+                <h3>Follow Us On</h3>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <span>
+                        <img src="images/Facebook.png" alt="fb image">
+                      </span>
+                      Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>
+                        <img src="images/Instagram.png" alt="instagram image">
+                      </span>
+                      Instagram
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>
+                        <img src="images/Whatsapp.png" alt="wahtsapp image">
+                      </span>
+                      Whatsapp
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span>
+                        <img src="images/youtube.png" alt="youtube image">
+                      </span>
+                      Youtube
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <p><span><img src="images/copyright.png" alt="Copyright image"></span>Copyright.All Rights Reserved 2025</p>
+    </div>
+  </footer>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</html>
