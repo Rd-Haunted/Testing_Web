@@ -1496,7 +1496,7 @@ img{
 
 .civil_matters_section{
     background-color: var(--lightwhite);
-    padding: 78px 0px 77px 0px;
+    padding: 78px 0px 0px 0px;
     height: 1029px;
 }
 .civil_matters_section_inner_left h2{
@@ -1519,7 +1519,6 @@ img{
 }
 .civil_matters_section_inner_left .content .first_accordion{
     margin-bottom: 10px;
-
 }
 .civil_matters_section_inner{
     display: flex;
@@ -1583,6 +1582,160 @@ img{
     line-height: 18px;
     color: #FFFFFF;
 }
+
+/* constitutional section */
+.constitutional_section{
+    background-color: var(--lightgray);
+    padding: 56px 0px 73px 0px;
+}
+.constitutional_section_inner_left_inner h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #F8F2EF;
+    margin-bottom: 38px;
+}
+.constitutional_section_inner_left_inner p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F8F2EF;
+}
+.constitutional_section_inner_left_inner .constitutional_second_p{
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.constitutional_section_inner_right_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.constitutional_section_inner_right_inner figure{
+    margin-bottom: 35px;
+}
+.constitutional_section_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.constitutional_section .constitutional_section_inner_left_inner .accordion li label{
+    width: 674px;
+    height: 61px;
+    background: #F8F2EF;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2A2A2C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 41px;
+}
+.constitutional_section .constitutional_section_inner_left_inner label::after{
+    content: '+';
+    font-size: 24px;
+    margin-right: 33px;
+}
+.constitutional_section .constitutional_section_inner_left_inner input[type='radio']{
+    display: none;
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion .content{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion input[type='radio']:checked + label + .content{
+    max-width: 674px;
+    max-height: 500px;
+    margin-top: -10px;
+    background: rgba(248, 242, 239, 0.7);
+    border-radius: 0px 0px 15px 15px;
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion input[type='radio']:checked + label::after{
+    content: '-';
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion li{
+    margin-bottom: 24px;
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion .content p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #2A2A2C;
+    margin-top: 30px;
+    margin-left: 36px;
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion .content p span{
+    font-weight: 700;
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion .content .taxation{
+    margin-top: 21px;
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion .content ul{
+    margin-top: 31px;
+    margin-left: 36px;
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion .content ul li{
+    margin-bottom: 10px;
+    font-family: 'Libre Caslon Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 5px;
+    color: #2A2A2C;
+}
+.constitutional_section .constitutional_section_inner_left_inner .accordion .content ul li:last-child{
+    margin-bottom: 20px;
+}
+.onload_popup h1{
+    text-align: center;
+}
+.onload_popup{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
